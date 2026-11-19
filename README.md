@@ -11,7 +11,7 @@ This project addresses employee turnover at Salifort Motors by developing machin
  * Feature Engineering & Key Drivers: Created an engineered binary feature (overworked) to capture employees working excessive monthly hours (200+ hours/month). Exploratory analysis and feature importance plots confirmed that attrition is heavily driven by workload burnout and tenure milestones rather than department or salary alone.
 5. Modeling and Evaluation
  * Models Built: Constructed and compared Decision Tree and Random Forest classifiers to predict employee attrition (left).
- * Model Comparison & Champion Selection: The Random Forest model slightly outperformed the Decision Tree model across evaluation metrics (तुझ्या HTML नोटबुकमधील अचूक Accuracy, Precision, Recall, F1 आणि ROC-AUC स्कोअर येथे अ‍ॅड कर).
+ * Model Comparison & Champion Selection: The Random Forest model slightly outperformed the Decision Tree model across evaluation metrics.
  * Feature Importance Findings:
    * Decision Tree Top Predictors: number_project (~0.38), last_evaluation (~0.35), tenure (~0.17), and overworked (~0.09).
    * Random Forest Top Predictors: last_evaluation (~0.35), number_project (~0.32), tenure (~0.20), and overworked (~0.09), followed by secondary factors like work_accident and salary_low.
